@@ -18,6 +18,7 @@ displayed during the Christmas Holidays.
 
 -   [x] User can press a button to start and stop the display
 -   [ ] User can change the interval of time controlling the change in intensity
+
 The idea comes from [there](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Christmas-Lights-App.md)
 
 ## TODO
