@@ -1,0 +1,104 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-text-size-adjust: 100%; */
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-shrink: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(25, 30, 53);
+}
+
+/* 音乐的默认样式，定位到右上角 */
+.audio {
+  flex: 1;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  background: none;
+  color: rgb(228, 222, 222);
+  outline: none;
+  border: 2px solid rgb(184, 134, 222);
+  border-radius: 25px;
+  margin: 0 12px;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+button:hover, #submit:hover, button:active, #submit:active {
+  outline: none;
+  background: rgb(184, 134, 222);
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+  /* flex-wrap: nowrap; */
+  flex-shrink:0;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #1e191f;
+  }
+}
